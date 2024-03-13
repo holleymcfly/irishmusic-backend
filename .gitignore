@@ -1,5 +1,8 @@
 HELP.md
 target/
+data/irishMusicData.mv.db
+data/irishMusicData.trace.db
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
