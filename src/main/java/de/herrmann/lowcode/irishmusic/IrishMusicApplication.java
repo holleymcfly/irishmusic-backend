@@ -10,15 +10,15 @@ import jakarta.annotation.PostConstruct;
 @SpringBootApplication
 public class IrishMusicApplication {
 
-	@Autowired
-	ImportData importData;
+	//@Autowired
+	//ImportData importData;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(IrishMusicApplication.class, args);
 	}
 	
-	@PostConstruct
-	public void loadTestData() {
-		importData.loadData();
-	}
+	//@PostConstruct
+	//public void loadTestData() {
+	//	importData.loadData();
+	//}
 }
