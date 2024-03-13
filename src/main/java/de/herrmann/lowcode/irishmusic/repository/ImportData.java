@@ -70,7 +70,7 @@ public class ImportData {
 	
 		Artist artist = new Artist();
 		artist.setName(name);
-		artist.setPhoto(toByteArray("D:/dev/sources/irishmusic/data/" + fileName));
+		artist.setPhoto(toByteArray("D:/dev/sources/irishmusic-backend/data/" + fileName));
 		artistRepository.save(artist);
 	}
 	
